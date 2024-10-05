@@ -1,4 +1,4 @@
-# LearnDyslexia
+# Dyslexics Learn
 
 This web application is designed to provide dyslexia-friendly learning tools to help users summarize text, perform OCR (Optical Character Recognition) on images, and receive personalized learning recommendations. The app uses AI and machine learning models for text summarization, text-to-speech functionality, and learning recommendations.
 
