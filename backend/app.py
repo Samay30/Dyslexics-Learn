@@ -216,15 +216,18 @@ def synthesize_speech(text):
         )
 
         # Save the synthesized speech to a file
-        with open('output.mp3', 'wb') as out:
+        with open('output3.mp3', 'wb') as out:
             out.write(response.audio_content)
 
-        return 'output.mp3'
+        return 'output3.mp3'
 
     except Exception as e:
         print(f"Error occurred: {e}")
         return None
 
+@app.route('/output3.mp3', methods=['GET'])
+def serve_audio3():
+    return send_file("output3.mp3", mimetype="audio/mpeg")
 
 # Route to submit a new question and answer
 @app.route('/add_question', methods=['POST'])
