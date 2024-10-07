@@ -2,17 +2,33 @@
 
 This web application is designed to provide dyslexia-friendly learning tools to help users summarize text, perform OCR (Optical Character Recognition) on images, and receive personalized learning recommendations. The app uses AI and machine learning models for text summarization, text-to-speech functionality, and learning recommendations.
 
-Key Features:
+#Features
 
-Optical Character Recognition (OCR): Implemented OCR functionality to convert images of text into editable and readable content, allowing users to digitize physical documents for easier access.
-OpenDyslexic Font Integration: Utilized the OpenDyslexic font throughout the app to improve readability and reduce letter confusion, catering specifically to the needs of dyslexic users.
-Dyslexia-Friendly UI Design: Designed the user interface with dyslexia-friendly colors, spacing, and layouts to minimize visual stress and enhance usability.
-Text-to-Speech Functionality: Integrated pyttsx3 to convert written text into spoken words, assisting users who find reading challenging.
-Text Summarization Tool: Leveraged Hugging Face's summarization models to condense lengthy texts into concise summaries, making information more digestible.
-Question and Answer Builder: Developed a feature that generates questions and answers from the content to facilitate interactive learning and comprehension.
-Personalized Learning Recommendations: Implemented K-Nearest Neighbors (KNN) algorithms to offer tailored content suggestions based on user interactions and preferences.
-Personalized Learning Recommendation**: Provides learning recommendations based on user progress.
-  
+1. Optical Character Recognition (OCR)
+Description: Converts images of text into editable and readable content.
+Benefit: Allows users to digitize physical documents for easier access and manipulation within the app.
+2. OpenDyslexic Font Integration
+Description: Utilizes the OpenDyslexic font throughout the application.
+Benefit: Improves readability and reduces letter confusion, catering specifically to the needs of dyslexic users.
+3. Dyslexia-Friendly UI Design
+Description: Designed with dyslexia-friendly colors, spacing, and layouts.
+Benefit: Minimizes visual stress and enhances usability for dyslexic users.
+4. Text-to-Speech Functionality
+Description: Converts written text into spoken words using pyttsx3.
+Benefit: Assists users who find reading challenging by allowing them to listen to the text.
+5. Text Summarization Tool
+Description: Leverages Hugging Face's summarization models to condense lengthy texts into concise summaries.
+Benefit: Makes information more digestible and easier to understand.
+6. Question and Answer Builder
+Description: Generates questions and answers from the content.
+Benefit: Facilitates interactive learning and improves comprehension.
+7. Personalized Learning Recommendations
+Description: Implements K-Nearest Neighbors (KNN) algorithms to offer tailored content suggestions.
+Benefit: Adapts lessons based on user interactions and preferences for a customized learning experience.
+8. Deployment on AWS Amplify
+Description: The app is deployed on AWS Amplify for hosting.
+Benefit: Ensures scalability, reliability, and a smooth user experience.
+
 ## Technologies Used
 
 - **Frontend**: React.js
