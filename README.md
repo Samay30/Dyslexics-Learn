@@ -2,12 +2,16 @@
 
 This web application is designed to provide dyslexia-friendly learning tools to help users summarize text, perform OCR (Optical Character Recognition) on images, and receive personalized learning recommendations. The app uses AI and machine learning models for text summarization, text-to-speech functionality, and learning recommendations.
 
-## Features
+Key Features:
 
-- **Text Summarization**: Enter text, and the app will generate a summarized version using AI.
-- **Text-to-Speech**: Converts the summarized text or OCR-recognized text to speech to enhance learning for users with dyslexia.
-- **Image Upload for OCR**: Upload images to extract text using Optical Character Recognition (OCR).
-- **Personalized Learning Recommendation**: Provides learning recommendations based on user progress.
+Optical Character Recognition (OCR): Implemented OCR functionality to convert images of text into editable and readable content, allowing users to digitize physical documents for easier access.
+OpenDyslexic Font Integration: Utilized the OpenDyslexic font throughout the app to improve readability and reduce letter confusion, catering specifically to the needs of dyslexic users.
+Dyslexia-Friendly UI Design: Designed the user interface with dyslexia-friendly colors, spacing, and layouts to minimize visual stress and enhance usability.
+Text-to-Speech Functionality: Integrated pyttsx3 to convert written text into spoken words, assisting users who find reading challenging.
+Text Summarization Tool: Leveraged Hugging Face's summarization models to condense lengthy texts into concise summaries, making information more digestible.
+Question and Answer Builder: Developed a feature that generates questions and answers from the content to facilitate interactive learning and comprehension.
+Personalized Learning Recommendations: Implemented K-Nearest Neighbors (KNN) algorithms to offer tailored content suggestions based on user interactions and preferences.
+Personalized Learning Recommendation**: Provides learning recommendations based on user progress.
   
 ## Technologies Used
 
